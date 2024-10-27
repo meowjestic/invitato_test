@@ -24,7 +24,7 @@
         </div>
         <!-- Slider -->
         <div class="w-full h-full">
-            <UiSlider />
+            <UiSlider :images="images"/>
         </div>
         <!-- End Slider -->
         <div class="text-center italic p-12">
@@ -32,6 +32,15 @@
         </div>
     </div>
 </template>
+<script setup>
+const images = [
+    "https://invitato.net/test-product-engineer/static/5-ffa38a07e15195800fbcc590cb50b2d0.jpg",
+    "https://invitato.net/test-product-engineer/static/1-2b43ea516254cdff99c88a7fce90ae98.jpg",
+    "https://invitato.net/test-product-engineer/static/2-9fafa4bf7091b5207804ffe51f518939.jpg",
+    "https://invitato.net/test-product-engineer/static/3-8ac38da1cdc0fa503b46859811696a13.jpg",
+    "https://invitato.net/test-product-engineer/static/4-3943e72cf6bb4fe685c5917ea1d1cac4.jpg",
+]
+</script>
 <style scoped>
 .thisbackground {
     background: linear-gradient(rgb(50 48 48/ 50%), rgb(50 48 48 / 50%)), center/cover url(https://ik.imagekit.io/drpq5xrph/Template%20Tiffany%20&%20Jared/1.%20Cover.jpg?updatedAt=1698222296920);

@@ -7,7 +7,7 @@
         </div>
         <button type="button" @click="openInvitation"
             class="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-200 disabled:opacity-50 disabled:pointer-events-none">
-            <Icon :name="isOpened ? 'line-md:loading-loop' : 'line-md:email-opened-alt-filled'"/>
+            <Icon :name="isOpened ? 'line-md:loading-loop' : 'line-md:email-opened-alt-filled'" />
             Open
         </button>
     </div>
@@ -15,7 +15,8 @@
 <script setup>
 const handlers = defineEmits(["openInvitation"])
 const isOpened = ref(false)
-function openInvitation(){
+
+function openInvitation() {
     isOpened.value = true
     handlers("openInvitation")
 }

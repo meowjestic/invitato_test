@@ -1,9 +1,7 @@
 <template>
     <div class="flex flex-1 h-screen">
-            <div class="h-full hidden lg:block w-[calc(100%-515px)] relative">
-                <DekstopCover class="h-full w-[calc(100%-515px)] top-0 fixed" />
-            </div>
-        <div class="w-full lg:w-[515px]">
+        <DekstopCover class="h-full hidden lg:block w-2/3" />
+        <div class="w-full lg:w-1/3 overflow-auto">
             <slot />
         </div>
     </div>
