@@ -13,27 +13,27 @@
                 
                 <div class="hs-carousel-slide snap-center">
                     <div class="flex justify-center w-full h-full bg-gray-100">
-                        <NuxtImg class="w-full object-cover" src="https://invitato.net/test-product-engineer/static/5-ffa38a07e15195800fbcc590cb50b2d0.jpg" />
+                        <NuxtImg class="w-full object-cover" src="/images/1.jpg" />
                     </div>
                 </div>
                 <div class="hs-carousel-slide snap-center">
                     <div class="flex justify-center w-full h-full bg-gray-100">
-                        <NuxtImg class="w-full object-cover" src="https://invitato.net/test-product-engineer/static/1-2b43ea516254cdff99c88a7fce90ae98.jpg" />
+                        <NuxtImg class="w-full object-cover" src="/images/2.jpg" />
                     </div>
                 </div>
                 <div class="hs-carousel-slide snap-center">
                     <div class="flex justify-center w-full h-full bg-gray-100">
-                        <NuxtImg class="w-full object-cover" src="https://invitato.net/test-product-engineer/static/2-9fafa4bf7091b5207804ffe51f518939.jpg" />
+                        <NuxtImg class="w-full object-cover" src="/images/3.jpg" />
                     </div>
                 </div>
                 <div class="hs-carousel-slide snap-center">
                     <div class="flex justify-center w-full h-full bg-gray-100">
-                        <NuxtImg class="w-full object-cover" src="https://invitato.net/test-product-engineer/static/3-8ac38da1cdc0fa503b46859811696a13.jpg" />
+                        <NuxtImg class="w-full object-cover" src="/images/4.jpg" />
                     </div>
                 </div>
                 <div class="hs-carousel-slide snap-center">
                     <div class="flex justify-center w-full h-full bg-gray-100">
-                        <NuxtImg class="w-full object-cover" src="https://invitato.net/test-product-engineer/static/4-3943e72cf6bb4fe685c5917ea1d1cac4.jpg" />
+                        <NuxtImg class="w-full object-cover" src="/images/5.jpg" />
                     </div>
                 </div>
                 
@@ -69,7 +69,5 @@
 </template>
 
 <script setup>
-const props = defineProps({
-    images: Array
-})
+
 </script>
