@@ -17,8 +17,9 @@ function openInvitation() {
         isOpened.value = true
         setTimeout(() => {
             loads.value = true
-            const audio = new Audio("/audio/backburner.mp3")
+            const audio = new Audio("/audio/everyone_adores_you.mp3")
             audio.play()
+            audio.loop
         }, 1000);
     }, 1000);
 }
