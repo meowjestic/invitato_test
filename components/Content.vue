@@ -44,10 +44,6 @@
     </div>
 </template>
 
-<script setup>
-
-</script>
-
 <style scoped>
 .thisbackground {
     background: linear-gradient(rgb(50 48 48/ 50%), rgb(50 48 48 / 50%)), center/cover url(https://ik.imagekit.io/drpq5xrph/Template%20Tiffany%20&%20Jared/1.%20Cover.jpg?updatedAt=1698222296920);
